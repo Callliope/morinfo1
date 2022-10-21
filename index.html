@@ -5,30 +5,126 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="normalize" href="Normalize.css">
+    <link rel="stylesheet" href="aboutstyle.css">
     <title>Моринформсистема</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
     <header class="header desktop">
-        <div class="container">
-            <div class="header__logo">
-                <img src="Rectangle1.svg">
+        <div class="header__nav">
+            <div class="header__nav-logo">
+                <img src="img/Rectangle1.svg">
             </div>
-            <ul>
+            <ul class="header__nav-links">
                 <li class="header__item"> <a href="#">Главная</a></li>
-                <li class="header__item"> <a href="#">О нас</a></li>
+                <li class="header__item linedword"> <a href="#">О нас</a></li>
                 <li class="header__item"> <a href="#">Фотогалерея</a></li>
                 <li class="header__item"> <a href="#">Контакты</a></li>
                 <li class="header__item"> <a href="#">Новости</a></li>
             </ul>
             <div class="header__aside">
-                <a>Регистрация</a>
-                <button>Вход</button>
+                <a class="header__aside-link">Регистрация</a>
+                <span class="header__aside-dash">/</span>
+                <button class="header__aside-enter">Вход</button>
             </div>
         </div>
     </header>
-
+    <main class="aboutpage main">
+        <div class="aboutpage container">
+            <div class="aboutpage__txt">
+                <div class="aboutpage__txt-title">
+                    <h2>О нас</h2>
+                </div>
+                <div class="aboutpage__txt-maintxt">
+                    <p>Ассоциация МОРИНФОРМСИСТЕМА - это объединение юридических лиц, в котором члены участвуют на
+                        добровольной основе для реализации интересов общего и профессионального характера.</p>
+                    <p>Мы координируем работу предприятий и рассматриваем предложения по улучшению сотрудничества и
+                        внедрению новейших достижений науки и техники в новые разработки, и производство предприятий
+                        Ассоциации.</p>
+                </div>
+            </div>
+            <div class="aboutpage__gallery">
+                <div class="aboutpage__gallery-item">
+                    <img src="img/Rectangle9.png">
+                </div>
+                <div class="aboutpage__gallery-item">
+                    <img src="img/Rectangle15.png">
+                </div>
+                <div class="aboutpage__gallery-item">
+                    <img src="img/Rectangle16.png">
+                </div>
+                <div class="aboutpage__gallery-item">
+                    <img src="img/Rectangle18.png">
+                </div>
+                <div class="aboutpage__gallery-item">
+                    <img src="img/Rectangle17.png">
+                </div>
+            </div>
+            <div class="aboutpage__imgbox">
+                <img src="img/Rectangle9.png">
+            </div>
+            <div class="aboutpage__goals">
+                <div class="aboutpage__goals-title">
+                    <h2>Наши главные цели:</h2>
+                </div>
+                <div class="aboutpage__goals-maintxt">
+                    <p>Координация научно-технической, организационной, хозяйственной, управленческой и предприни­
+                        мательской деятельности ее членов, а также представление и защита их прав и интересов;</p>
+                    <p>Объединение и привлечение интеллектуальных, материальных и финансовых ресурсов ее членов,
+                        координация их деятельности для ускорения научно-технического прогресса, повышения конкуренто­
+                        способности и эффективности создаваемых ими корабельных информационных и управляющих систем и
+                        комплексов, создания эффективных технологических и кооперационных связей, а также привлечение
+                        инвестиций;</p>
+                    <p>Координация с предприятиями Санкт-Петербурга и Ленинградской области в деле обеспечения
+                        строительства кораблей ВМФ и гражданского судостроения.</p>
+                </div>
+            </div>
+            <div class="aboutpage__workman">
+                <p>Изначально созданная на базе предприятий, вошедших впоследствии в первоначальный состав
+                    интегрированной структуры, «Моринформсистема» включает в себя как десять предприятий, входящих в
+                    интегрированную структуру, так и десять предприятий, не входящих в нее, но объединившихся для
+                    достижения общих целей.</p>
+                <p>В рамках Ассоциации образован Научно-технический совет (НТС), в который входят главные инженеры,
+                    заместители директоров и ведущие специалисты предприятий, что позволяет координировать работу
+                    предприятий и рассматривать предложения по улучшению сотрудничества и внедрению новей­ших достижений
+                    науки и техники в новые разработки и производство предприятий Ассоциации.</p>
+            </div>
+            <div class="aboutpage__workmanimg">
+                <div class="card__thumb">
+                    <img src="img/Group 4.png">
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footercont">
+            <div class="footercont__contact">
+                <h3 class="contact_title">Контакты</h3>
+                <div class="footercont__contact-info">
+                    <img src="https://morinsysmarp.ru/wp-content/themes/sea-inform-system/img/footer_icon/phone.svg"
+                        alt="" class="footer_contact-info_icon">
+                    <a href="tel:+74953683765" class="footer_contact-info_text">+7 (495) 368-37-65</a>
+                </div>
+                <div class="footercont__contact-info">
+                    <img src="https://morinsysmarp.ru/wp-content/themes/sea-inform-system/img/footer_icon/mail.svg"
+                        alt="" class="footer_contact-info_icon">
+                    <a href="email:info@morinsysmarp.ru" class="footer_contact-info_text">info@morinsysmarp.ru</a>
+                </div>
+                <div class="footercont__contact-info">
+                    <img id="homeicon"
+                        src="https://morinsysmarp.ru/wp-content/themes/sea-inform-system/img/footer_icon/home.svg"
+                        alt="" class="footer_contact-info_icon">
+                    <label class="footer_contact-info_text" for="homeicon">Россия, Москва,
+                        ул.&nbsp;Электродная,&nbsp;3а</label>
+                </div>
+            </div>
+            <div class="footercont__contact-map">
+                <img src="img/Group 66.png">
+            </div>
+        </div>
+        <p class="copy">© 2019 morinsysmarp.ru</p>
+    </footer>
 </body>
 
 </html>
